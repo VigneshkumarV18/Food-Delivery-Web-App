@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Riyadvi - Home</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+    }
+    
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px 80px;
+      background-color: transparent;
+      position: absolute;
+      width: 100%;
+    }
+    
+    .nav-links {
+      list-style: none;
+      font-size: 18px;
+    }
+    
+    .nav-links li {
+      display: inline-block;
+      margin-right: 30px;
+    }
+    
+    .nav-links li a {
+      text-decoration: none;
+      color: white;
+      border: 1px solid transparent;
+      padding: 8px 15px;
+      border-radius: 5px;
+      background-color: transparent;
+      transition: all 0.3s ease;
+    }
+    
+    .nav-links li a:hover {
+      background-color: white;
+      color: black;
+    }
+    
+    .home-section {
+      height: 600px;
+      background-image: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      margin-top: 0px; /* Adjust this margin to avoid overlap with the navbar */
+    }
+    
+    .home-section h1 {
+      font-weight: bold;
+      font-size: 60px;
+      margin-top: 10%;
+    }
+    
+    .home-section p {
+      margin-top: 10px;
+      font-size: 35px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="your-logo.png" alt="Logo" width="200px" height="auto">
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Add Restaurant</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section class="home-section">
+    <h1>Riyadvi</h1>
+    <p>Find the best restaurants, cafes and bars in India</p>
+  </section>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delivery Restaurants - Riyadvi</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: transparent;
+    }
+    
+    .logo img {
+      width: 150px; 
+      height: 50px; /* Keeps the aspect ratio */
+    }
+    
+    .search-bar {
+      display: flex;
+      align-items: center;
+    }
+    
+    .search-input {
+      padding: 6px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      margin-right: 5px;
+      width: 250px;
+    }
+    
+    .search-button {
+      padding: 6px 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+      margin-right: 20px;
+    }
+
+    .back-button {
+      padding: 8px 12px;
+      border: none;
+      border-radius: 5px;
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+      font-size: 16px;
+      margin-right: 20px;
+    }
+    
+    .main-content {
+      padding: 20px;
+    }
+    
+    .section {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    
+    .restaurant {
+      width: 350px; /* Adjust size as needed */
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      text-align: center;
+      cursor: pointer;
+    }
+    .restaurant:hover{
+        background-color: rgb(174, 222, 241);
+        width: 360px;
+    }
+    
+    .restaurant img {
+      max-width: 100%;
+      height: 300px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    a{
+        text-decoration: none;
+    }
+    h2{
+        color: black;
+    }
+    p{
+        color: rgb(35, 34, 34);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="your-logo.png" alt="Logo">
+    </div>
+    <div class="search-bar">
+      <input type="text" class="search-input" placeholder="Search...">
+      <button class="search-button">Search</button>
+    </div>
+    <a href="index.html" class="back-button">Back</a>
+  </header>
+  
+  <div class="main-content">
+    <h1>Restaurants near your area</h1>
+    <div class="section">
+      <a href="king.html"><div class="restaurant">
+        <img src="res1.webp" alt="Restaurant 1">
+        <h2>King's Foodies</h2>
+        <p>South Indian Biryani,<br>Mettukuppam Locality, Thoraipakkam</p>
+      </div></a>
+      
+      <a href="lifa.html"><div class="restaurant">
+        <img src="res2.jpeg" alt="Restaurant 2">
+        <h2>Lifa Hotel</h2>
+        <p> Chinese, <br>Mettukuppam Locality, Thoraipakkam</p>
+      </div></a>
+      
+      <a href="arusuvai.html"><div class="restaurant">
+        <img src="fried.jpeg" alt="Restaurant 3">
+        <h2>Arusuvai Restaurant</h2>
+        <p> Chinese, <br>Mettukuppam Locality, Thoraipakkam</p>
+      </div></a>
+    </div>
+    
+    <!-- More sections can be added similarly -->
+  </div>
+</body>
+</html>
